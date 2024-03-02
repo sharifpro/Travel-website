@@ -3,9 +3,371 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awosome Traveling</title>
+    <title>Atlas Travel Org.</title>
+    <!-- Link Icon -->
+    <link rel="icon" href="./img/logo.png">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <h2>Traveling Journey start</h2>
+    <!-- Header  -->
+    <header class="mt-50 px">
+        <nav class="flex-1">
+            <ul class='nav-bar flex-1'>
+                <li class='logo'>
+                    <a href='#' class="flex-2">                
+                        <img src="images/logo.png" alt="">
+                        <h3><span>Atlas </span>Travel Org.</h3>
+                    </a>
+                </li>
+
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+
+        <div class="banner mt-50 text-center b-16 padd flex-1 flex-col">
+            <h1>Explore Your Travel</h1>
+            <p class="px-2">Welcome to our “Travel Agency About Us Page Templates”! These easy-to-use templates are perfect for any travel agency looking to create an engaging About Us page!</p>
+            <div class="banner-input">
+                <form action="">
+                    <input type="text" name="go" id="go" placeholder="Where go">
+                    <select name="when" id="when">
+                        <option value="">When</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                    </select>
+
+                    <select name="type" id="type">
+                        <option value="">Select Type</option>
+                        <option value="Short Tour">Short Tour</option>
+                        <option value="Long Tour">Long Tour</option>
+                    </select>
+                    <button type="submit" class="btn-1"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                </form>
+            </div>
+        
+        </div>
+
+    </header>
+    <!-- Header End -->
+
+    <!-- Main  -->
+    <main class="px">
+        <!-- Popular -->
+        <section id="popular" class="flex-1">
+            <div class="pop-left">
+                <h2>Our Popular Tours</h2>
+                <p>Explore top destinations with our best-selling tours. Immerse in unique experiences, creating memories that last a lifetime. Book now</p>
+                <ul>
+                    <li>Unforgettable adventures</li>
+                    <li>Breathtaking landscapes</li>
+                    <li>Expert-guided experiences</li>
+                    <li>Diverse destinations</li>
+                    <li>Immersive cultural encounters</li>
+                </ul>
+                <p>Discover the world's wonders with Our Popular Tours. From iconic landmarks to hidden gems, embark on extraordinary journeys. Book your adventure</p>
+                <button class="btn-1">Read More</button>
+            </div>
+
+            <div class="pop-right">
+                <img src="images/popular.png" alt="">
+            </div>
+        </section>
+        <!-- Popular End -->
+
+        <!-- Destination -->
+        <section id="destination" class="mt">
+            <div class="text-center px-2">
+                <h2>Choose Your Destination</h2>
+                <p>Good customer service is critical for any business, especially for those in the travel industry like hotels and tour operators. It also has a high open rate which is essential for travel and hospitality.</p>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="item-1 f-1 item">
+                        <img src="images/maldivas.png" alt="">
+                        <h4>Maldives</h4>
+                    </div>
+                    <div class="item-2 f-1 item">
+                        <img src="images/indonesia.png" alt=""> 
+                        <h4>Indonesia</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="item-3 f-1 item">
+                        <img src="images/srilanka.png" alt="">
+                        <h4>Srilanka</h4>
+                    </div>
+                    <div class="item-4 f-2 item">
+                        <img src="images/northamerica.png" alt="">
+                        <h4>North America</h4>
+                    </div>
+                    <div class="item-5 f-1 item">
+                        <img src="images/kashmir.png" alt="">
+                        <h4>Kashmir</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="item-6 f-1 item">
+                        <img src="images/bangladesh.png" alt="">
+                        <h4>Bangladesh</h4>
+                    </div>
+                    <div class="item-7 f-2 item">
+                        <img src="images/bandarban.png" alt="">
+                        <h4>Bandarban</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Destination End -->
+
+        <!-- Why -->
+        <section id="why" class="mt">
+            <div class="text-center px-2">
+                <h2>Why Choose Us</h2>
+                <p class="para">Discover endless possibilities. Select your ideal destination. From serene beaches to bustling metropolises – your adventure awaits. Start exploring now</p>
+            </div>
+
+            <div class="row row-top flex-1 gap">
+                <div class="card c1">
+                    <img src="images/hotel1.svg" alt="Hotel">
+                    <h5>Handpicked Hotels</h5>
+                    <p>Handpicked Hotels: Discover exquisite comfort and personalized luxury. Immerse yourself in elegance, impeccable service, and unforgettable experiences. Your perfect stay awaits.</p>
+                </div>
+                
+                <div class="card c2">
+                    <img src="images/map1.svg" alt="Hotel">
+                    <h5>World Class Service</h5>
+                    <p>Experience world-class service with our card. Elevate your journey with exclusive benefits, seamless transactions, and personalized assistance. Unlock a new level of excellence today</p>
+                </div>
+            </div>
+
+            <div class="row row-bottom flex-2">
+                <div class="card c3">
+                    <img src="images/price-tag1.svg" alt="Hotel">
+                    <h5>Best Price Guarantee</h5>
+                    <p>Our Best Price Guarantee  ensures unbeatable prices. If you find a lower rate, we'll match it, providing you with the best deals and unmatched savings.</p>
+                </div>
+                
+            </div>            
+        </section>
+        <!-- Why End -->
+
+        <!-- Deals -->
+        <section id="deals" class="mt">
+            <div class="text-center px-2">
+                <h2>Deals & Discounts</h2>
+                <p class="para">Discover unbeatable Deals & Discounts. Save big on your favorite products and services. Don't miss out on exclusive offers. Shop smart, spend less, and enjoy more.</p>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card-container">
+                        <img src="images/santorini1.png" alt="Santorini">
+                        <div class="card card-pos-1">
+                            <div class="card-top">
+                                <p><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</p>
+                                <p><i class="fa-solid fa-users"></i>Max : 10</p>
+                                <p><i class="fa-solid fa-location-dot"></i> Greece</p>
+                            </div>
+                            <div class="card-middle">
+                                <h5>Tour To Satorini</h5>
+                                <p>Explore Santorini's breathtaking landscapes. Immerse in rich culture, savor local cuisine, and unwind inluxury.</p>
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Price: $1300-$1500</h5>
+                                <button class="btn-1">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-container">
+                        <img src="images/indo.jpg" alt="Santorini">
+                        <div class="card card-pos-2">
+                            <div class="card-top">
+                                <p><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</p>
+                                <p><i class="fa-solid fa-users"></i>Max : 10</p>
+                                <p><i class="fa-solid fa-location-dot"></i> Indonesia</p>
+                            </div>
+                            <div class="card-middle">
+                                <h5>Tour To Indonesia</h5>
+                                <p>Indulge in the allure of Indonesia with our immersive tour.</p>
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Price: $1300-$1500</h5>
+                                <button class="btn-1">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-container">
+                        <img src="images/turkey.jpg" alt="Santorini">
+                        <div class="card card-pos-1">
+                            <div class="card-top">
+                                <p><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</p>
+                                <p><i class="fa-solid fa-users"></i>Max : 10</p>
+                                <p><i class="fa-solid fa-location-dot"></i> Turkiye</p>
+                            </div>
+                            <div class="card-middle">
+                                <h5>Tour To Turkiye</h5>
+                                <p>"Tour To Turkey card offers unforgettable experiences with cultural richness and scenic beauty. </p>
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Price: $1300-$1500</h5>
+                                <button class="btn-1">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row flex-2">
+                <button class="btn-1">See All Packages</button>
+            </div>
+
+        </section>
+        <!-- Deals End -->
+
+        <!-- Get Lost  -->
+        <section id="get" class="mt flex-1">
+            <div class="get-left">
+                <h2>A Simple Perfect Place <br> To Get Lost</h2>
+                <p class="para">Discover unbeatable Deals & Discounts. Save big on your favorite products and services. Don't miss out on exclusive offers. Shop smart, spend less, and enjoy more.</p>
+                <ul>
+                    <li>Discover tranquil destinations that invite you to escape the ordinary and embrace the beauty of getting lost.</li>
+                    <li>Navigate through our curated selection of unique locales, where every corner holds the promise of a simple, perfect escape.</li>
+                </ul>
+                <button class="btn-1">See More</button>
+            </div>
+
+            <div class="get-right">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/rkpzYNB6xks?si=SsRkXq6xVENvd20e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>            
+        </section>
+        <!-- Get Lost End -->
+
+        <!-- Blog -->
+        <section id="blog" class="mt">
+            <div class="text-center px-2">
+                <h2>Discover Blog Weekly</h2>
+
+            </div>
+            <div class="row">
+                <div class="card b-16">
+                    <img src="images/kathmandu.png" alt="">
+                    <button class="btn-1">Read</button>
+                    <h5>Kathmandu Valley Cultural Heritage Tour</h5>
+                    <div class="card-icon">
+                        <a href="#"><i class="fa-solid fa-user"></i> Atlas Travel Org</a>
+                        <p><i class="fa-solid fa-clock"></i> 1/16/2024</p>
+                    </div>
+                </div>
+
+                <div class="card b-16">
+                    <img src="images/arizona.jpg" alt="">
+                    <button class="btn-1">Read</button>
+                    <h5>How To Tour Mount Fuji</h5>
+                    <div class="card-icon">
+                        <a href="#"><i class="fa-solid fa-user"></i> Atlas Travel Org</a>
+                        <p><i class="fa-solid fa-clock"></i> 1/19/2024</p>
+                    </div>
+                </div>
+                
+                <div class="card b-16">
+                    <img src="images/bali1.jpg" alt="">
+                    <button class="btn-1">Read</button>
+                    <h5>A guide to Bali, Indonesia</h5>
+                    <div class="card-icon">
+                        <a href="#"><i class="fa-solid fa-user"></i> Atlas Travel Org</a>
+                        <p><i class="fa-solid fa-clock"></i> 1/16/2024</p>
+                    </div>
+                </div>
+                
+                                
+                <div class="card b-16">
+                    <img src="images/taj.jpg" alt="">
+                    <button class="btn-1">Read</button>
+                    <h5>The ultimate guide to exploring top destination in India</h5>
+                    <div class="card-icon">
+                        <a href="#"><i class="fa-solid fa-user"></i> Atlas Travel Org</a>
+                        <p><i class="fa-solid fa-clock"></i> 1/16/2024</p>
+                    </div>
+                </div> 
+            </div>    
+            
+            <div class="seemore">
+                <button class="btn-1">See More</button>
+            </div>
+        </section>
+        <!-- Blog End -->
+
+        <!-- Newsletter -->
+        <section id="news" class="mt">
+            <div class="news-left b-16 f-1">
+                <div class="form-top">
+                    <h4>Newsletter</h4>
+                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                </div>
+                <hr>
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="submit" value="Subscribe" class="btn-1">
+                </form>
+            </div>
+            <div class="news-right f-2">
+                <!-- <img src="./img/news.png" alt=""> -->
+                <div class="web">
+                    <h5>atlas.com</h5>
+                    <h4>Save up to 70%</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter End-->
+        
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer  -->
+    <footer class="mt">
+        <div class="logo flex-2">
+            <img src="images/logo.png" alt=""> 
+            <h3><span>Atlas </span> Travel Org.</h3>
+        </div>
+        <p class="px-2"> Atlas Travel Org, your passport to extraordinary journeys. Explore the world with seamless planning, tailored itineraries, and unforgettable experiences.</p>
+
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <hr>
+
+        <p id="copy">2017, All Rights Reserved.</p>
+
+    </footer>
+    <!-- Footer End -->
+    
 </body>
 </html>
